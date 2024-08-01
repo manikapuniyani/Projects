@@ -11,7 +11,7 @@ public class MyController {
 	@GetMapping("/helloPage")
 	public ModelAndView openHelloPage()
 	{
-		System.out.println("openhellopage() method executed");
+		System.out.println("openhellopage() method executed ONE TIME");
 		
 		ModelAndView mav=new ModelAndView();
 		mav.setViewName("hello");
